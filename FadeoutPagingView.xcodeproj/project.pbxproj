@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C2F4D91797EFE3007913D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4D81797EFE3007913D7 /* UIKit.framework */; };
+		04C2F4DB1797EFE3007913D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4DA1797EFE3007913D7 /* Foundation.framework */; };
+		04C2F4DD1797EFE3007913D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4DC1797EFE3007913D7 /* CoreGraphics.framework */; };
+		04C2F4E31797EFE3007913D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F4E11797EFE3007913D7 /* InfoPlist.strings */; };
+		04C2F4E51797EFE3007913D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F4E41797EFE3007913D7 /* main.m */; };
+		04C2F4E91797EFE3007913D7 /* ROSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F4E81797EFE3007913D7 /* ROSPAppDelegate.m */; };
+		04C2F4EB1797EFE3007913D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F4EA1797EFE3007913D7 /* Default.png */; };
+		04C2F4ED1797EFE3007913D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F4EC1797EFE3007913D7 /* Default@2x.png */; };
+		04C2F4EF1797EFE3007913D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F4EE1797EFE3007913D7 /* Default-568h@2x.png */; };
+		04C2F4F21797EFE3007913D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F4F01797EFE3007913D7 /* MainStoryboard_iPhone.storyboard */; };
+		04C2F4F51797EFE3007913D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F4F31797EFE3007913D7 /* MainStoryboard_iPad.storyboard */; };
+		04C2F4F81797EFE3007913D7 /* ROSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F4F71797EFE3007913D7 /* ROSPViewController.m */; };
+		04C2F5001797EFE3007913D7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4FF1797EFE3007913D7 /* SenTestingKit.framework */; };
+		04C2F5011797EFE3007913D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4D81797EFE3007913D7 /* UIKit.framework */; };
+		04C2F5021797EFE3007913D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4DA1797EFE3007913D7 /* Foundation.framework */; };
+		04C2F50A1797EFE3007913D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F5081797EFE3007913D7 /* InfoPlist.strings */; };
+		04C2F50D1797EFE3007913D7 /* FadeoutPagingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F50C1797EFE3007913D7 /* FadeoutPagingViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C2F5031797EFE3007913D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C2F4CD1797EFE3007913D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C2F4D41797EFE3007913D7;
+			remoteInfo = FadeoutPagingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C2F4D51797EFE3007913D7 /* FadeoutPagingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeoutPagingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C2F4D81797EFE3007913D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04C2F4DA1797EFE3007913D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04C2F4DC1797EFE3007913D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04C2F4E01797EFE3007913D7 /* FadeoutPagingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadeoutPagingView-Info.plist"; sourceTree = "<group>"; };
+		04C2F4E21797EFE3007913D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C2F4E41797EFE3007913D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C2F4E61797EFE3007913D7 /* FadeoutPagingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FadeoutPagingView-Prefix.pch"; sourceTree = "<group>"; };
+		04C2F4E71797EFE3007913D7 /* ROSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROSPAppDelegate.h; sourceTree = "<group>"; };
+		04C2F4E81797EFE3007913D7 /* ROSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROSPAppDelegate.m; sourceTree = "<group>"; };
+		04C2F4EA1797EFE3007913D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04C2F4EC1797EFE3007913D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		04C2F4EE1797EFE3007913D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04C2F4F11797EFE3007913D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		04C2F4F41797EFE3007913D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		04C2F4F61797EFE3007913D7 /* ROSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ROSPViewController.h; sourceTree = "<group>"; };
+		04C2F4F71797EFE3007913D7 /* ROSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROSPViewController.m; sourceTree = "<group>"; };
+		04C2F4FE1797EFE3007913D7 /* FadeoutPagingViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeoutPagingViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C2F4FF1797EFE3007913D7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		04C2F5071797EFE3007913D7 /* FadeoutPagingViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadeoutPagingViewTests-Info.plist"; sourceTree = "<group>"; };
+		04C2F5091797EFE3007913D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C2F50B1797EFE3007913D7 /* FadeoutPagingViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FadeoutPagingViewTests.h; sourceTree = "<group>"; };
+		04C2F50C1797EFE3007913D7 /* FadeoutPagingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeoutPagingViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C2F4D21797EFE3007913D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2F4D91797EFE3007913D7 /* UIKit.framework in Frameworks */,
+				04C2F4DB1797EFE3007913D7 /* Foundation.framework in Frameworks */,
+				04C2F4DD1797EFE3007913D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C2F4FA1797EFE3007913D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2F5001797EFE3007913D7 /* SenTestingKit.framework in Frameworks */,
+				04C2F5011797EFE3007913D7 /* UIKit.framework in Frameworks */,
+				04C2F5021797EFE3007913D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C2F4CC1797EFE3007913D7 = {
+			isa = PBXGroup;
+			children = (
+				04C2F4DE1797EFE3007913D7 /* FadeoutPagingView */,
+				04C2F5051797EFE3007913D7 /* FadeoutPagingViewTests */,
+				04C2F4D71797EFE3007913D7 /* Frameworks */,
+				04C2F4D61797EFE3007913D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C2F4D61797EFE3007913D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F4D51797EFE3007913D7 /* FadeoutPagingView.app */,
+				04C2F4FE1797EFE3007913D7 /* FadeoutPagingViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C2F4D71797EFE3007913D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F4D81797EFE3007913D7 /* UIKit.framework */,
+				04C2F4DA1797EFE3007913D7 /* Foundation.framework */,
+				04C2F4DC1797EFE3007913D7 /* CoreGraphics.framework */,
+				04C2F4FF1797EFE3007913D7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C2F4DE1797EFE3007913D7 /* FadeoutPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F4E71797EFE3007913D7 /* ROSPAppDelegate.h */,
+				04C2F4E81797EFE3007913D7 /* ROSPAppDelegate.m */,
+				04C2F4F01797EFE3007913D7 /* MainStoryboard_iPhone.storyboard */,
+				04C2F4F31797EFE3007913D7 /* MainStoryboard_iPad.storyboard */,
+				04C2F4F61797EFE3007913D7 /* ROSPViewController.h */,
+				04C2F4F71797EFE3007913D7 /* ROSPViewController.m */,
+				04C2F4DF1797EFE3007913D7 /* Supporting Files */,
+			);
+			path = FadeoutPagingView;
+			sourceTree = "<group>";
+		};
+		04C2F4DF1797EFE3007913D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F4E01797EFE3007913D7 /* FadeoutPagingView-Info.plist */,
+				04C2F4E11797EFE3007913D7 /* InfoPlist.strings */,
+				04C2F4E41797EFE3007913D7 /* main.m */,
+				04C2F4E61797EFE3007913D7 /* FadeoutPagingView-Prefix.pch */,
+				04C2F4EA1797EFE3007913D7 /* Default.png */,
+				04C2F4EC1797EFE3007913D7 /* Default@2x.png */,
+				04C2F4EE1797EFE3007913D7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C2F5051797EFE3007913D7 /* FadeoutPagingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F50B1797EFE3007913D7 /* FadeoutPagingViewTests.h */,
+				04C2F50C1797EFE3007913D7 /* FadeoutPagingViewTests.m */,
+				04C2F5061797EFE3007913D7 /* Supporting Files */,
+			);
+			path = FadeoutPagingViewTests;
+			sourceTree = "<group>";
+		};
+		04C2F5061797EFE3007913D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F5071797EFE3007913D7 /* FadeoutPagingViewTests-Info.plist */,
+				04C2F5081797EFE3007913D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C2F4D41797EFE3007913D7 /* FadeoutPagingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C2F5101797EFE3007913D7 /* Build configuration list for PBXNativeTarget "FadeoutPagingView" */;
+			buildPhases = (
+				04C2F4D11797EFE3007913D7 /* Sources */,
+				04C2F4D21797EFE3007913D7 /* Frameworks */,
+				04C2F4D31797EFE3007913D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadeoutPagingView;
+			productName = FadeoutPagingView;
+			productReference = 04C2F4D51797EFE3007913D7 /* FadeoutPagingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C2F4FD1797EFE3007913D7 /* FadeoutPagingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C2F5131797EFE3007913D7 /* Build configuration list for PBXNativeTarget "FadeoutPagingViewTests" */;
+			buildPhases = (
+				04C2F4F91797EFE3007913D7 /* Sources */,
+				04C2F4FA1797EFE3007913D7 /* Frameworks */,
+				04C2F4FB1797EFE3007913D7 /* Resources */,
+				04C2F4FC1797EFE3007913D7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C2F5041797EFE3007913D7 /* PBXTargetDependency */,
+			);
+			name = FadeoutPagingViewTests;
+			productName = FadeoutPagingViewTests;
+			productReference = 04C2F4FE1797EFE3007913D7 /* FadeoutPagingViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C2F4CD1797EFE3007913D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ROSP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = iamro00;
+			};
+			buildConfigurationList = 04C2F4D01797EFE3007913D7 /* Build configuration list for PBXProject "FadeoutPagingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04C2F4CC1797EFE3007913D7;
+			productRefGroup = 04C2F4D61797EFE3007913D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C2F4D41797EFE3007913D7 /* FadeoutPagingView */,
+				04C2F4FD1797EFE3007913D7 /* FadeoutPagingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C2F4D31797EFE3007913D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2F4E31797EFE3007913D7 /* InfoPlist.strings in Resources */,
+				04C2F4EB1797EFE3007913D7 /* Default.png in Resources */,
+				04C2F4ED1797EFE3007913D7 /* Default@2x.png in Resources */,
+				04C2F4EF1797EFE3007913D7 /* Default-568h@2x.png in Resources */,
+				04C2F4F21797EFE3007913D7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				04C2F4F51797EFE3007913D7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C2F4FB1797EFE3007913D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2F50A1797EFE3007913D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C2F4FC1797EFE3007913D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C2F4D11797EFE3007913D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2F4E51797EFE3007913D7 /* main.m in Sources */,
+				04C2F4E91797EFE3007913D7 /* ROSPAppDelegate.m in Sources */,
+				04C2F4F81797EFE3007913D7 /* ROSPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C2F4F91797EFE3007913D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C2F50D1797EFE3007913D7 /* FadeoutPagingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C2F5041797EFE3007913D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C2F4D41797EFE3007913D7 /* FadeoutPagingView */;
+			targetProxy = 04C2F5031797EFE3007913D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C2F4E11797EFE3007913D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C2F4E21797EFE3007913D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04C2F4F01797EFE3007913D7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C2F4F11797EFE3007913D7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		04C2F4F31797EFE3007913D7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C2F4F41797EFE3007913D7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		04C2F5081797EFE3007913D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C2F5091797EFE3007913D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C2F50E1797EFE3007913D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C2F50F1797EFE3007913D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C2F5111797EFE3007913D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FadeoutPagingView/FadeoutPagingView-Prefix.pch";
+				INFOPLIST_FILE = "FadeoutPagingView/FadeoutPagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04C2F5121797EFE3007913D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FadeoutPagingView/FadeoutPagingView-Prefix.pch";
+				INFOPLIST_FILE = "FadeoutPagingView/FadeoutPagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04C2F5141797EFE3007913D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FadeoutPagingView.app/FadeoutPagingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FadeoutPagingView/FadeoutPagingView-Prefix.pch";
+				INFOPLIST_FILE = "FadeoutPagingViewTests/FadeoutPagingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		04C2F5151797EFE3007913D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FadeoutPagingView.app/FadeoutPagingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FadeoutPagingView/FadeoutPagingView-Prefix.pch";
+				INFOPLIST_FILE = "FadeoutPagingViewTests/FadeoutPagingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C2F4D01797EFE3007913D7 /* Build configuration list for PBXProject "FadeoutPagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C2F50E1797EFE3007913D7 /* Debug */,
+				04C2F50F1797EFE3007913D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C2F5101797EFE3007913D7 /* Build configuration list for PBXNativeTarget "FadeoutPagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C2F5111797EFE3007913D7 /* Debug */,
+				04C2F5121797EFE3007913D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C2F5131797EFE3007913D7 /* Build configuration list for PBXNativeTarget "FadeoutPagingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C2F5141797EFE3007913D7 /* Debug */,
+				04C2F5151797EFE3007913D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C2F4CD1797EFE3007913D7 /* Project object */;
+}
