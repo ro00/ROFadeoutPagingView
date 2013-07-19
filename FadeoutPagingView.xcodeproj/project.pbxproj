@@ -24,6 +24,8 @@
 		04C2F5021797EFE3007913D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2F4DA1797EFE3007913D7 /* Foundation.framework */; };
 		04C2F50A1797EFE3007913D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F5081797EFE3007913D7 /* InfoPlist.strings */; };
 		04C2F50D1797EFE3007913D7 /* FadeoutPagingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F50C1797EFE3007913D7 /* FadeoutPagingViewTests.m */; };
+		04C2F5181797F016007913D7 /* ROFadeoutPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2F5171797F016007913D7 /* ROFadeoutPagingView.m */; };
+		04C2F51A1797F89A007913D7 /* fin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C2F5191797F89A007913D7 /* fin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		04C2F5091797EFE3007913D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04C2F50B1797EFE3007913D7 /* FadeoutPagingViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FadeoutPagingViewTests.h; sourceTree = "<group>"; };
 		04C2F50C1797EFE3007913D7 /* FadeoutPagingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeoutPagingViewTests.m; sourceTree = "<group>"; };
+		04C2F5161797F016007913D7 /* ROFadeoutPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROFadeoutPagingView.h; sourceTree = "<group>"; };
+		04C2F5171797F016007913D7 /* ROFadeoutPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROFadeoutPagingView.m; sourceTree = "<group>"; };
+		04C2F5191797F89A007913D7 /* fin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,9 @@
 				04C2F4F31797EFE3007913D7 /* MainStoryboard_iPad.storyboard */,
 				04C2F4F61797EFE3007913D7 /* ROSPViewController.h */,
 				04C2F4F71797EFE3007913D7 /* ROSPViewController.m */,
+				04C2F5161797F016007913D7 /* ROFadeoutPagingView.h */,
+				04C2F5171797F016007913D7 /* ROFadeoutPagingView.m */,
+				04C2F5191797F89A007913D7 /* fin.jpg */,
 				04C2F4DF1797EFE3007913D7 /* Supporting Files */,
 			);
 			path = FadeoutPagingView;
@@ -241,6 +249,7 @@
 				04C2F4EF1797EFE3007913D7 /* Default-568h@2x.png in Resources */,
 				04C2F4F21797EFE3007913D7 /* MainStoryboard_iPhone.storyboard in Resources */,
 				04C2F4F51797EFE3007913D7 /* MainStoryboard_iPad.storyboard in Resources */,
+				04C2F51A1797F89A007913D7 /* fin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,7 @@
 				04C2F4E51797EFE3007913D7 /* main.m in Sources */,
 				04C2F4E91797EFE3007913D7 /* ROSPAppDelegate.m in Sources */,
 				04C2F4F81797EFE3007913D7 /* ROSPViewController.m in Sources */,
+				04C2F5181797F016007913D7 /* ROFadeoutPagingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

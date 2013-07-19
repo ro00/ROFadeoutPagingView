@@ -7,6 +7,7 @@
 //
 
 #import "ROSPViewController.h"
+#import "ROFadeoutPagingView.h"
 
 @interface ROSPViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:[[ROFadeoutPagingView alloc] initWithImages:@[[UIImage imageNamed:@"fin.jpg"],[UIImage imageNamed:@"fin.jpg"],[UIImage imageNamed:@"fin.jpg"],[UIImage imageNamed:@"fin.jpg"],[UIImage imageNamed:@"fin.jpg"],[UIImage imageNamed:@"fin.jpg"]] frame:self.view.bounds]];
+    
 }
 
 - (void)didReceiveMemoryWarning
