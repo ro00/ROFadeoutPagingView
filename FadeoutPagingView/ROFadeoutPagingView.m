@@ -39,7 +39,21 @@
             [self sendSubviewToBack:imgV];
         }];
     }
+    
+    if(slideShowEnabled)timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(slideShow) userInfo:nil repeats:YES];
+    [self updatePagesWithPercentage:0 andCurrentPage:currentPageIndex withAnimate:NO];
     return self;
+}
+
+static bool down;
+
+-(void)slideShow{
+    if(!down)currentPageIndex++;
+    else currentPageIndex--;
+    if (currentPageIndex>=[pagingsImageViews count]-1||currentPageIndex==0) {
+        down=!down;
+    }
+    [self updatePagesWithPercentage:0 andCurrentPage:currentPageIndex withAnimate:YES];
 }
 
 -(void)paning:(UIPanGestureRecognizer*)gest{
@@ -74,9 +88,14 @@
         UIImageView *imgView = obj;
         if (idx == page) {
             void(^block)(void) = ^{
-                imgView.center = CGPointMake(self.bounds.size.width/2., self.bounds.size.height/2.);
-                imgView.alpha = 1-p;
-                imgView.transform = CGAffineTransformMakeScale(1+p, 1+p);
+                if (p<0) {
+                    imgView.center = CGPointMake(self.bounds.size.width/2.-p*imgView.bounds.size.width, self.bounds.size.height/2.);
+                }
+                else{
+                    imgView.center = CGPointMake(self.bounds.size.width/2., self.bounds.size.height/2.);
+                    imgView.alpha = 1-p;
+                    imgView.transform = CGAffineTransformMakeScale(1+p, 1+p);
+                }
             };
             if (animate) {
                 [UIView animateWithDuration:0.6 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
@@ -88,16 +107,30 @@
                 block();
             }
         }else{
+            CGFloat ap = fabsf(p);
             void(^block)(void) = ^{
                 int dis = idx - page;
                 if (dis<0) {
-                    imgView.alpha = 0;
-                    imgView.transform = CGAffineTransformMakeScale(1+dis, 1+dis);
+                    if (dis==-1) {
+                        if (p<0) {
+                            imgView.alpha = 0+ap;
+                            imgView.transform = CGAffineTransformMakeScale(2-ap, 2-ap);
+                            imgView.center = CGPointMake(self.bounds.size.width/2., self.bounds.size.height/2.);
+                        }else{
+                            imgView.alpha = 0;
+                            imgView.transform = CGAffineTransformMakeScale(2, 2);
+                            imgView.center = CGPointMake(self.bounds.size.width/2., self.bounds.size.height/2.);
+                        }
+                    }else{
+                        imgView.alpha = 0;
+                        imgView.transform = CGAffineTransformMakeScale(2, 2);
+                        imgView.center = CGPointMake(self.bounds.size.width/2., self.bounds.size.height/2.);
+                    }
                 }else{
                     imgView.alpha = 1;
                     imgView.transform = CGAffineTransformMakeScale(1, 1);
+                    imgView.center = CGPointMake(self.bounds.size.width/2.+dis*self.bounds.size.width-p*imgView.bounds.size.width, self.bounds.size.height/2.);
                 }
-                imgView.center = CGPointMake(self.bounds.size.width/2.+dis*self.bounds.size.width-p*imgView.bounds.size.width, self.bounds.size.height/2.);
             };
             if (animate) {
                 [UIView animateWithDuration:0.6 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{

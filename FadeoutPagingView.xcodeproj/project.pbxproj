@@ -124,14 +124,13 @@
 		04C2F4DE1797EFE3007913D7 /* FadeoutPagingView */ = {
 			isa = PBXGroup;
 			children = (
+				04D5FD78179D21A60026C43E /* FadeoutPaging */,
 				04C2F4E71797EFE3007913D7 /* ROSPAppDelegate.h */,
 				04C2F4E81797EFE3007913D7 /* ROSPAppDelegate.m */,
 				04C2F4F01797EFE3007913D7 /* MainStoryboard_iPhone.storyboard */,
 				04C2F4F31797EFE3007913D7 /* MainStoryboard_iPad.storyboard */,
 				04C2F4F61797EFE3007913D7 /* ROSPViewController.h */,
 				04C2F4F71797EFE3007913D7 /* ROSPViewController.m */,
-				04C2F5161797F016007913D7 /* ROFadeoutPagingView.h */,
-				04C2F5171797F016007913D7 /* ROFadeoutPagingView.m */,
 				04C2F5191797F89A007913D7 /* fin.jpg */,
 				04C2F4DF1797EFE3007913D7 /* Supporting Files */,
 			);
@@ -169,6 +168,15 @@
 				04C2F5081797EFE3007913D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D5FD78179D21A60026C43E /* FadeoutPaging */ = {
+			isa = PBXGroup;
+			children = (
+				04C2F5161797F016007913D7 /* ROFadeoutPagingView.h */,
+				04C2F5171797F016007913D7 /* ROFadeoutPagingView.m */,
+			);
+			name = FadeoutPaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +486,7 @@
 				04C2F5121797EFE3007913D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C2F5131797EFE3007913D7 /* Build configuration list for PBXNativeTarget "FadeoutPagingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +495,7 @@
 				04C2F5151797EFE3007913D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

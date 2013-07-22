@@ -13,6 +13,9 @@
 @interface ROFadeoutPagingView : UIView{
     NSMutableArray *pagingsImageViews;
     CGFloat currentPaningWidth;
+    int currentPageIndex;
+    BOOL slideShowEnabled;
+    NSTimer* timer;
 }
 
 -(id)initWithImages:(NSArray*)imgs frame:(CGRect)frame;
